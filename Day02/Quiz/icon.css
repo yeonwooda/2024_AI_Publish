@@ -1,0 +1,18 @@
+.box {
+  display: flex;
+}
+
+.abc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  width: 150px;
+  height: 100px;
+}
+
+i {
+  font-size: 30px;
+}

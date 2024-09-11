@@ -1,0 +1,56 @@
+.box {
+  /* 자기 자식들을 가로 또는 세로로 배치하는 스타일 */
+  display: flex;
+  /* flex가 필수로 있어야함 */
+  /* col : 세로, row : 가로 */
+  flex-direction: column;
+
+  /* 자식들 사이에 간격 주기 */
+  /* gap: 10px; */
+
+  /* main 축으로 어떻게 정렬할까요 */
+  justify-content: space-around;
+
+  /* cross축으로 어떻게 정렬할까요 */
+  align-items: start;
+
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.test {
+  width: 100px;
+  height: 100px;
+}
+.one {
+  background-color: green;
+}
+
+.two {
+  background-color: yellow;
+}
+
+.three {
+  background-color: red;
+}
+
+.code {
+  justify-content: start;
+  justify-content: center;
+  justify-content: end;
+
+  /* 자식들이 공평하게 너비를 차지 */
+  justify-content: space-around;
+
+  /* 양 끝은 공백없이 배치 */
+  justify-content: space-between;
+
+  /* 동일한 공백을 형성 */
+  justify-content: space-evenly;
+
+  /* cross 축 */
+  align-items: start;
+  align-items: center;
+  align-items: end;
+}
