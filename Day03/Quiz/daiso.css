@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 1200px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  height: 800px;
+  padding-top: 20px;
+}
+
+.contents {
+  display: flex;
+  gap: 50px;
+
+  width: 100%;
+  height: 100%;
+}
+
+.tit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-bottom: 20px;
+}
+
+.tit_one {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tit_two {
+  color: gray;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 250px;
+  height: 500px;
+}
+
+.image {
+  width: 100%;
+  height: 50%;
+
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240904/tF4murpPzedjBN03Z86a1047816_00_00tF4murpPzedjBN03Z86a.jpg/dims/resize/320/quality/90");
+  background-size: cover;
+
+  position: relative;
+}
+
+i {
+  border-radius: 9999px;
+  padding: 15px;
+
+  background-color: red;
+  color: white;
+
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+
+  opacity: 0.65;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subtit {
+  color: gray;
+
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.view {
+  color: gray;
+  font-size: 12px;
+}
+
+.btn {
+  width: fit-content;
+
+  border: 2px solid red;
+  border-radius: 4px;
+
+  background-color: white;
+  color: red;
+}
+
+.tit_thrr {
+  color: gray;
+  font-weight: bold;
+}

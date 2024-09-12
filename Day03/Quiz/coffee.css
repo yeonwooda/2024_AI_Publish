@@ -1,0 +1,48 @@
+.container {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 300px;
+  transition: all 0.2s;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.btn {
+  background-color: #233b83;
+  color: white;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
