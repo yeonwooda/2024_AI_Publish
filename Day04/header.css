@@ -1,0 +1,33 @@
+header {
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 15px;
+}
+
+img {
+  object-fit: cover;
+}
+
+.ul1 {
+  display: flex;
+  gap: 20px;
+}
+
+.ul2 {
+  display: flex;
+  gap: 20px;
+}

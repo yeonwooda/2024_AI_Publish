@@ -1,0 +1,32 @@
+.second {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: black;
+  color: white;
+}
+
+.second_container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  height: 100%;
+}
+
+.second_contents {
+  padding: 125px;
+}
+
+.models {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.second__tit {
+  font-size: 20px;
+}

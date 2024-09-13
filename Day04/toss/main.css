@@ -1,0 +1,84 @@
+@import url("https://static.toss.im/tps/main.css");
+@import url("https://static.toss.im/tps/others.css");
+
+* {
+  font-family: "Toss Product Sans";
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("https://static.toss.im/assets/homepage/newtossim/new_main.png");
+  background-size: cover;
+}
+
+.conteredBox {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+
+  padding-top: 150px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.motto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  font-size: 66px;
+  font-weight: 700;
+
+  margin-bottom: 60px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  border: none;
+  border-radius: 6px;
+  padding: 11px 22px;
+
+  background-color: rgb(78, 89, 104);
+  transition: all 0.3s;
+  color: rgb(255, 255, 255);
+
+  font-weight: 500;
+}
+
+.btn > i {
+  font-size: 15px;
+}
+
+.whiteBlur {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  /* 화이트 블러의 넓이와 높이 */
+  width: 100%;
+  height: 250px;
+
+  /* 그라데이션 하얀색 */
+  background: linear-gradient(
+    180deg,
+    white 0%,
+    white 59px,
+    rgba(255, 255, 255, 0) 100%
+  );
+}

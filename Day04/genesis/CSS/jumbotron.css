@@ -1,0 +1,49 @@
+.jumbotron {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-key-visual-electrified-g80-25fl-main-hero-desktop-2560x900-kr.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 70px;
+}
+
+.jumbotron_Container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.jumbotron_contents {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  padding: 125px;
+  color: white;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.h2 {
+  font-size: 48px;
+}
+
+.title > span {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.more {
+  display: flex;
+  gap: 30px;
+
+  margin-top: 300px;
+
+  font-size: 12px;
+}
