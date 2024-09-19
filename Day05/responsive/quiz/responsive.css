@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.a {
+  background-color: #1abc9c;
+}
+
+.b {
+  background-color: #2ecc71;
+}
+
+.c {
+  background-color: #3498db;
+}
+
+.d {
+  background-color: #9b59b6;
+}
+
+.e {
+  background-color: #34495e;
+}
+
+.a1 {
+  background-color: #16a085;
+}
+
+.b1 {
+  background-color: #27ae60;
+}
+.c1 {
+  background-color: #2980b9;
+}
+
+.d1 {
+  background-color: #8e44ad;
+}
+
+.e1 {
+  background-color: #2c3e50;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}

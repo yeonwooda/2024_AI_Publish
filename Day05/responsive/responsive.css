@@ -1,0 +1,38 @@
+/* 반응형 */
+/* pc, tablet, mobile버전을 위한 css */
+
+/* 1024px 높으면 박스 넓이 500 500 색상 : red */
+.box {
+  width: 500;
+  height: 500px;
+  background-color: red;
+}
+
+/* 반응형 css */
+
+/* 480보다 낮으면 박스 넓이 50 50 blue */
+@media screen and (max-width: 480px) {
+  .box {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+  }
+}
+
+/* 480px 100 100 green */
+@media screen and (max-width: 796px) {
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+  }
+}
+
+/* 796px 높으면 박스 넓이 300 300 yellow */
+@media screen and (max-width: 1024px) {
+  .box {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+  }
+}
